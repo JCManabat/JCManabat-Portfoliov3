@@ -765,6 +765,28 @@ section {
   }
 }
 
+.btn-cv {
+  background: transparent;
+  color: var(--main-color);
+  border: 2px solid var(--main-color);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.btn-cv:hover {
+  background: var(--main-color);
+  color: white;
+}
+
+.btn-cv i {
+  font-size: 1.8rem;
+  background: none;
+  -webkit-background-clip: unset;
+  background-clip: unset;
+  color: inherit;
+}
+
 /* Active nav link */
 .navbar a.active-link {
   color: var(--main-color);
